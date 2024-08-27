@@ -89,7 +89,7 @@ def eddyflux(ve,qe,filt=True):
 	if filt == True:	out[1:-1,:]=out[:-2,:]*0.25+out[1:-1,:]*0.5+out[2:,:]*0.25
 	return out
 
-# 3. Effect of LH
+# 8. Effect of LH
 def LH(p,q,qref,L,dx,dy,filt=True):
 	import numpy as np
 	# effect of LH
