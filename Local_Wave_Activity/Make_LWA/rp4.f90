@@ -1,7 +1,7 @@
 !Created by Noboru Nakamura. Edited by Joonsuk M. Kang and Giorgio M. Sarro.
 !****** Read .nc file for the upper layer QGPV and Qref *****
 !****** and compute LWA *****
-!Edit the model dimentions!
+!Edit the model dimensions!
 
         program PV
 
