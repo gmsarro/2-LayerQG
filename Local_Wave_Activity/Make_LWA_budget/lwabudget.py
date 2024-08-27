@@ -1,5 +1,7 @@
 #Written by Joonsuk M. Kang
 #Modified by Giorgio M. Sarro
+
+# 1. LWA tendency
 def lwatend(lwa,dt):
 	import numpy as np
 	# time-tendency of LWA
