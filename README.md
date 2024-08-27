@@ -8,13 +8,10 @@ This repository contains the scripts used in the methods section of the paper "S
 ## Repository Structure
 
 ```bash
-your-repo-name/
+2-LayerQG/
 │
 ├── src/
-│   ├── wave_activity/       # Scripts for local wave activity and budget calculation
-│   ├── eddy_growth_rates/   # Scripts for eddy growth rates calculation
-│   └── ...
-├── data/                    # Data files used in the analysis (if applicable)
-├── notebooks/               # Jupyter notebooks (if applicable)
-├── docs/                    # Additional documentation
-└── results/                 # Output files and results
+│   ├── Local_Wave_Activity/       # Scripts for local wave activity and budget calculation
+│   │   ├── Make_LWA/              # Scripts for local wave activity calculation + reference PV
+│   │   ├── Make_LWA_budget/       # Scripts for reference wind + reference temperature + local wave activity budget calculation
+│   ├── Eddy_Growth/   # Scripts for eddy growth rates calculation
