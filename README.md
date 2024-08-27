@@ -6,7 +6,7 @@ This repository contains the scripts used in the methods section of the paper "S
 1. **Local Wave Activity and Budget Calculation for a 2-Layer QG Model (with Latent Heating)**
 2. **Eddy Growth Rates Calculation for a 2-Layer QG Model**
 
-The scripts are made for the [Lutsko and Hell (2021) model]([https://github.com/nicklutsko/moist_QG_channel/tree/main]), but can be modified to work on any 2 layer QG model.
+The scripts are made for the [Lutsko and Hell (2021) model](https://github.com/nicklutsko/moist_QG_channel/tree/main), but can be modified to work on any 2 layer QG model.
 
 ## Repository Structure
 
