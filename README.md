@@ -1,4 +1,5 @@
-# Reproducible Code for "Sarro et al. 2024"
+# Reproducible code for "Sarro et al. 2024"
+Varying Blocking Dynamics with Increased Latent Heating in Idealized 2-Layer QG Models
 
 This repository contains the scripts used in the methods section of the paper "Sarro et al. 2024". The scripts are divided into two main categories:
 
