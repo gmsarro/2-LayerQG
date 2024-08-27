@@ -6,6 +6,9 @@ This repository contains the scripts described in the methods section of Sarro e
 2. **Eddy Growth Rates Calculation for a 2-Layer QG Model**
 
 The scripts are made for the [Lutsko and Hell (2021) model](https://github.com/nicklutsko/moist_QG_channel/tree/main), but can be modified to work on any 2 layer QG model.
+The LWA budget here presented works for 2-layer QG models. To compute the LWA budget in more complex datasets, such as reanalysis, see the [falwa page](https://github.com/csyhuang/hn2016_falwa).
+
+
 
 ## Repository Structure
 
