@@ -1,4 +1,4 @@
-# Code for Sarro et al. (2024): Varying Blocking Dynamics with Increased Latent Heating in Idealized 2-Layer QG Models
+# Compute Local Wave Activity and the eddy growth rate in 2-Layer QG Models
 
 This repository contains scripts associated with the methods section of Sarro et al. (2024). The scripts are organized into two main categories:
 
