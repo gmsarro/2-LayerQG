@@ -31,7 +31,7 @@ dir_in='/mnt/winds/data2/gmsarro/Rossbypalloza_project_22/LWA/N128_%s_%s_%s_%s.3
 # Specify the name and the location for the saved output
 dir_out = '/mnt/winds/data2/gmsarro/Rossbypalloza_project_22/LWA/N128_%s_%s_%s_%s.'%(Lstr,Cstr,Estr,Ustr) 
 # Specify where the fortran code is stored (rp2.f90 and rp4.f90)
-dir_fortran ='/mnt/winds/data2/gmsarro/Rossbypalloza_project_22/LWA/run_LWA/'
+dir_fortran ='2-LayerQG/Local_Wave_Activity/Make_LWA/Calculate_LWA.py'
 
 #_____________________________________#
 #The following code opens the PV model data, removes the data in the sponge layer. 
