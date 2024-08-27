@@ -27,7 +27,6 @@
         
 ! ### Read the .nc file for PV ####
        stat = nf90_open('QGPV.nc',nf90_nowrite,ncid)
-!       stat = nf90_open('/project2/tas1/gmsarro/LWA/run_LWA/QGPV.nc',nf90_nowrite,ncid)
        stat = nf90_inquire(ncid,nDim,nVar,nAtt,uDimID)
        write(6,*) 'ndim,nvar,natt,uDimID =',nDim,nVar,nAtt,uDimID
        stat = nf90_inq_varid(ncid,"q1",varID)
@@ -48,9 +47,6 @@
 ! ### Time loop ###
        do m = 1,n
        do jjj = 1, jmax 
-      ! ### Computing anticyclonic and cyclonic LWA at latitude jjj ###
-!         jjj = 64   ! at the center of channel 
-! add a loop here through jjj
       ! ### Compute qe ###
          qe(:,:) = qgpv1(:,:,m)-qref1(jjj,m) 
 

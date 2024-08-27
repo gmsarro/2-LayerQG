@@ -36,7 +36,6 @@ program PV
 
 ! ### Read the .nc file ####
        stat = nf90_open('QGPV.nc',nf90_nowrite,ncid) 
-!       stat = nf90_open('/project2/tas1/gmsarro/LWA/run_LWA/QGPV.nc',nf90_nowrite,ncid) 
        stat = nf90_inquire(ncid,nDim,nVar,nAtt,uDimID)
        write(6,*) 'ndim,nvar,natt,uDimID =',nDim,nVar,nAtt,uDimID
        stat = nf90_inq_varid(ncid,"q1",varID)
@@ -68,9 +67,6 @@ program PV
         enddo !2
         enddo
           cn(1) = 0.
-!        do j = 2,jmax
-!          cn(j) = cn(j-1)+0.5*(an(j)+an(j-1))
-!        enddo
         
         do j = 2,jmax
           cn(j) = cn(j-1)+an(j-1)
