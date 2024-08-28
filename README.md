@@ -22,7 +22,7 @@ These scripts are primarily designed for the [Lutsko and Hell (2021) model](http
 
 ### 1. Local Wave Activity and Budget Calculation
 
-This section includes scripts for calculating the local wave activity (LWA) and its budget within a 2-layer quasi-geostrophic (QG) model, considering latent heating effects. These scripts correspond to the results presented in Section 2.3 of Sarro et al. (2024).
+This section includes scripts for calculating the local wave activity (LWA) and its budget within a 2-layer quasi-geostrophic (QG) model, considering latent heating effects. These scripts correspond to the results presented in Section 2.2 of Sarro et al. (2024).
 
 **Subdirectories:**
 
