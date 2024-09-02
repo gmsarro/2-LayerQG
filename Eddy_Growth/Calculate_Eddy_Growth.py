@@ -1,5 +1,5 @@
 ### This code computes the eddy growth rate and its mode structure for a 2-layer QG model. ####
-#Computes the fastest eddy growth rates in a 2-layer QG model.
+#Computes the fastest and mean eddy growth rates in a 2-layer QG model.
 #This is a modified version of the Phillips model.
 #Written by Giorgio M. Sarro and Noboru Nakamura
 
